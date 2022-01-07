@@ -11,7 +11,7 @@ Then I created a pivot table and named the new sheet 'Theater Outcomes by Launch
 [![Theater-Outcomes-by-Launch-date.jpg](https://i.postimg.cc/YSWHZKST/Theater-Outcomes-by-Launch-date.jpg)](https://postimg.cc/d7wpZfr9)
 ### Analysis of Outcomes Based on Goals
 First I created Goal,Number Successful,Number Failed,Number Canceled,Total Projects,Percentage Successful,Percentage Failed and Percentage Canceled columns. Then, [Countifs function syntax](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842?ui=en-us&rs=en-us&ad=us) was used by filtering the outcome,the goal's range that each campaign fall under and "plays" subcategory.[![outcomes-based-on-goals.jpg](https://i.postimg.cc/YSp6yk8C/outcomes-based-on-goals.jpg)](https://postimg.cc/mP51tv0v)
-sum function was key in calculating the total projects.[Sum()]https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89
+[Sum()](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89) was key in calculating the total projects.
 
 
 
