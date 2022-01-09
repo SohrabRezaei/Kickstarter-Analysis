@@ -6,11 +6,11 @@ Louise has asked us to analyze various fundraisings to understand better the fac
 
 ### Purpose
 
-After going over multiple factors related to launching the campaign, now she has decided to emphasize finding the relationship between the aftermath of these campaigns based on the month that they were established and the amount of money they were supposed to attain.
+After going over multiple factors related to launching the campaign, she has decided to emphasize finding the relationship between the aftermath of these campaigns based on the month they were established and the amount of money they were supposed to attain.
 
 ## Analysis and Challenges
 
-Since there are two different projects, we basically breakdown the analyses into two sections and talk about its challenges.
+Since there are two different projects, we basically break down the analyses into two sections and discuess their challenges.
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -20,12 +20,14 @@ Then I created a pivot table and named the new sheet 'Theater Outcomes by Launch
 [![Theater-Outcomes-by-Launch-date.jpg](https://i.postimg.cc/YSWHZKST/Theater-Outcomes-by-Launch-date.jpg)](https://postimg.cc/d7wpZfr9)
 
 ### Analysis of Outcomes Based on Goals
+
 First I created Goal, Number Successful, Number Failed, Number Canceled, Total Projects, Percentage Successful, Percentage Failed and Percentage Canceled columns. Then, [Countifs()](https://support.microsoft.com/en-us/office/countifs-function-dda3dc6e-f74e-4aee-88bc-aa8c2a866842?ui=en-us&rs=en-us&ad=us) was used by filtering the outcome,the goal's range that each campaign fall under and "plays" subcategory.[![outcomes-based-on-goals.jpg](https://i.postimg.cc/YSp6yk8C/outcomes-based-on-goals.jpg)](https://postimg.cc/mP51tv0v)
 [Sum()](https://support.microsoft.com/en-us/office/sum-function-043e1c7d-7726-4e80-8f32-07b23e057f89) was key in calculating the total projects. Finally, each outcome was divided by total projects and converted to percentage in order to calculate the percentage of successful, failed and canceled projects. Finally, a line chart presented the relationship between outcomes and the desired goal ranges.
 
 ### Challenges and Difficulties Encountered
 
 If we wouldn't create the year's column in the first place, we could not filter it based on years in the pivot table. Displaying months for the pivot tables was a bit challenging to figure out by removing the years and quarters in the rows section of the pivot table. Utilizing the countifs function was time consuming since it had three arguments in this specific case, and we must use $ before the column names in order to use this formula multiple times by dragging the cell.
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
@@ -40,9 +42,9 @@ The goal range of 1000-5000 has the highest number of successful projects. There
 
 - What are some limitations of this dataset?
 
-The goal range of 35000-45000 has high percentages of successful project but the sample size of its total projects is very low, making us second guess our whole analysis. The sample size of total projects in general is not even throughout the whole ranges, so talking about percentages is kind of biased.
+The goal range of 35000-45000 has high percentages of a successful project, but the sample size of its total projects is minimal, making us second guess our whole analysis. In general, the sample size of total projects is not even throughout the entire range, so talking about percentages is somewhat biased.
 
 
 - What are some other possible tables and/or graphs that we could create?
 
-
+One possible table that could have been created may be the outcome of these campaigns based on the time that it takes to reach the goals for the successful ones. Bar chart could be utilized for the outcomes based on goal, since there is no time factor involved in it.
